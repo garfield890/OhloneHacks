@@ -1,0 +1,22 @@
+.icon1 {
+    width: 200px;
+    color: black;
+    margin-left: 10px;
+}
+
+.player {
+    position: absolute;
+    bottom: 0;
+}
+
+#p1 {
+    left: 50px;
+    top: 500px;
+    height: 200px;
+}
+
+#p2 {
+    left: 500px;
+    top: 550px;
+    height: 100px;
+}

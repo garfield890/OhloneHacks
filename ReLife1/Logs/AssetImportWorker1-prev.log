@@ -1,0 +1,569 @@
+Unity Editor version:    2022.3.24f1 (334eb2a0b267)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.4 (Build 23E214)
+Darwin version:          23.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.24f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/anay/Library/CloudStorage/GoogleDrive-agrawal.anay@gmail.com/Other computers/My MacBook Pro/Google Drive/Coding/OhloneHacks/OhloneHacks/ReLife1
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+64962
+Successfully changed project path to: /Users/anay/Library/CloudStorage/GoogleDrive-agrawal.anay@gmail.com/Other computers/My MacBook Pro/Google Drive/Coding/OhloneHacks/OhloneHacks/ReLife1
+/Users/anay/Library/CloudStorage/GoogleDrive-agrawal.anay@gmail.com/Other computers/My MacBook Pro/Google Drive/Coding/OhloneHacks/OhloneHacks/ReLife1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8464874176] Host "[IP] 172.31.0.130 [Port] 0 [Flags] 2 [Guid] 1756957789 [EditorId] 1756957789 [Version] 1048832 [Id] OSXEditor(0,Anays-MacBook-Air-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8464874176] Host "[IP] 172.31.0.130 [Port] 0 [Flags] 2 [Guid] 1756957789 [EditorId] 1756957789 [Version] 1048832 [Id] OSXEditor(0,Anays-MacBook-Air-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 26.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.24f1 (334eb2a0b267)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.24f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/anay/Library/CloudStorage/GoogleDrive-agrawal.anay@gmail.com/Other computers/My MacBook Pro/Google Drive/Coding/OhloneHacks/OhloneHacks/ReLife1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.24f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.24f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.24f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56350
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.24f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.24f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.005068 seconds.
+- Loaded All Assemblies, in  0.757 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.565 seconds
+Domain Reload Profiling: 1322ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (83ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (120ms)
+	LoadAllAssembliesAndSetupDomain (354ms)
+		LoadAssemblies (181ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (343ms)
+			TypeCache.Refresh (339ms)
+				TypeCache.ScanAssembly (299ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (566ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (443ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (313ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.696 seconds
+Refreshing native plugins compatible for Editor in 4.90 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.285 seconds
+Domain Reload Profiling: 2998ms
+	BeginReloadAssembly (388ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (95ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (1112ms)
+		LoadAssemblies (736ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (483ms)
+			TypeCache.Refresh (443ms)
+				TypeCache.ScanAssembly (386ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1287ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (961ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (764ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.24f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.56 seconds
+Refreshing native plugins compatible for Editor in 3.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3093 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (51.4 KB). Loaded Objects now: 3554.
+Memory consumption went from 126.5 MB to 126.5 MB.
+Total: 41.915167 ms (FindLiveObjects: 0.586375 ms CreateObjectMapping: 0.234833 ms MarkObjects: 31.692833 ms  DeleteObjects: 9.395916 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1321942.161700 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.019079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 743.606931 seconds.
+  path: Assets/Models/burgerpiz/textures/Armchair.png
+  artifactKey: Guid(2c0f70773842c403da46919c88c5cd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Armchair.png using Guid(2c0f70773842c403da46919c88c5cd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23a06315ff4b88beba64fb909eb939a') in 0.589119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Models/burgerpiz/textures/MetalBare.jpeg
+  artifactKey: Guid(0c4d0d1eb8f3040288cefd75e1a1d61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/MetalBare.jpeg using Guid(0c4d0d1eb8f3040288cefd75e1a1d61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd76b0bbd816512bd06a508ae90a98e2') in 0.016263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005338 seconds.
+  path: Assets/Models/burgerpiz/textures/Grill.png
+  artifactKey: Guid(31d9764782db04fdea96b219e892d4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Grill.png using Guid(31d9764782db04fdea96b219e892d4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d974f5a3580c4fa82d12fa45441f5e') in 0.019731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001400 seconds.
+  path: Assets/Models/burgerpiz/textures/Plaster.png
+  artifactKey: Guid(431c9f0332a694c90ab0f26010d501bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Plaster.png using Guid(431c9f0332a694c90ab0f26010d501bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3bb1f696c0e5df2b49b05ec187b235') in 0.011810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Models/burgerpiz/textures/Lines.png
+  artifactKey: Guid(108f5edbea4dc498dafdcc800f40bbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Lines.png using Guid(108f5edbea4dc498dafdcc800f40bbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8eb1b4547cec0d1b8caa96649fce5e1') in 0.008760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Models/burgerpiz/textures/Metal.png
+  artifactKey: Guid(56165912e5493453a89ca3fcb2322dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Metal.png using Guid(56165912e5493453a89ca3fcb2322dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e49846d20542e83afd0f5cec3a2cf0') in 0.011799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Models/burgerpiz/textures/cardboard_boxes.png
+  artifactKey: Guid(43e047efef56d44e6b6c3a25405dca07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/cardboard_boxes.png using Guid(43e047efef56d44e6b6c3a25405dca07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680d59ab8055577f8209fb4ee2a9b6a5') in 0.011299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000671 seconds.
+  path: Assets/Models/burgerpiz/textures/Grass.jpeg
+  artifactKey: Guid(41dff76e7b4ef4afc99ba7d61f2df087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Grass.jpeg using Guid(41dff76e7b4ef4afc99ba7d61f2df087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2266a66b265213d0d67823d126b7c5') in 0.011994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Models/burgerpiz/textures/Cash_register.png
+  artifactKey: Guid(6b3fa38bfabbb4f8ab3e392e75ff4251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Cash_register.png using Guid(6b3fa38bfabbb4f8ab3e392e75ff4251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaebde948761cfef3f63cbf743115ca5') in 0.013973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Models/burgerpiz/textures/Light_Emissor.png
+  artifactKey: Guid(66e04e95caefe48f5aa774cd8c74fc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Light_Emissor.png using Guid(66e04e95caefe48f5aa774cd8c74fc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41a889748ac8e03d57c654210dc8e77') in 0.010062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Models/burgerpiz/textures/Marble.png
+  artifactKey: Guid(adf53935d479b420abe22ee021645b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Marble.png using Guid(adf53935d479b420abe22ee021645b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd680cddb3fc537776b3410d24a2bd77e') in 0.007963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001651 seconds.
+  path: Assets/Models/burgerpiz/textures/Lamppost.png
+  artifactKey: Guid(b09b5a419c2d546a29edac95d489185f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Lamppost.png using Guid(b09b5a419c2d546a29edac95d489185f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f380005d750c1ffd402e891f5f744d') in 0.007874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/Models/burgerpiz/textures/menu_burger.png
+  artifactKey: Guid(589f20153720a4c4493a38296326e193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/menu_burger.png using Guid(589f20153720a4c4493a38296326e193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327a05467d66fe687e06dfaa23324a67') in 0.009263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Models/burgerpiz/textures/Lamppost_Emissor.png
+  artifactKey: Guid(c19e41302026f45df807699ced734ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Lamppost_Emissor.png using Guid(c19e41302026f45df807699ced734ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4280f82712967a1c7641686b0c1e1a76') in 0.006530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Models/burgerpiz/textures/Light.png
+  artifactKey: Guid(688690a1fa54346d8b1095924c037383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Light.png using Guid(688690a1fa54346d8b1095924c037383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11706aef338d6a244969a544ec74eb9') in 0.008639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001026 seconds.
+  path: Assets/Models/burgerpiz/textures/Plaster_01.png
+  artifactKey: Guid(70b34a230ca264f9593e9543abe5f5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Plaster_01.png using Guid(70b34a230ca264f9593e9543abe5f5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cad48f96e9ba7fb38d0b934d40ba45e') in 0.009451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 388.447873 seconds.
+  path: Assets/Models/burgerpiz/textures/Refrijerator_M.png
+  artifactKey: Guid(88c4ad344a24142dab717d3a6cf65323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Refrijerator_M.png using Guid(88c4ad344a24142dab717d3a6cf65323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4a35c63fae33ab8316f004a44339cd') in 0.254754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Models/burgerpiz/textures/Road.jpeg
+  artifactKey: Guid(c94ed4303e43244c6853d62bd91b96f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Road.jpeg using Guid(c94ed4303e43244c6853d62bd91b96f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b3bf8ea562fef986ef00217e05a093') in 0.023496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Models/burgerpiz/textures/Roof_tiles.jpeg
+  artifactKey: Guid(05801691b3a1446c1b589868dbae1c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Roof_tiles.jpeg using Guid(05801691b3a1446c1b589868dbae1c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82659fb26d4a2d6719ba3642d959b1f2') in 0.045159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004020 seconds.
+  path: Assets/Models/burgerpiz/textures/RooftilesMetal.jpeg
+  artifactKey: Guid(0723677f9314049c992bd3d8e5f8d845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/RooftilesMetal.jpeg using Guid(0723677f9314049c992bd3d8e5f8d845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e300b1d97fd4a443fd64a32c470ad91') in 0.044442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 21.924833 seconds.
+  path: Assets/Models/burgerpiz/textures/Shelf_fd.png
+  artifactKey: Guid(27cbecae010e74075b16c853ace457b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Shelf_fd.png using Guid(27cbecae010e74075b16c853ace457b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0125c9ed08acfb46d58842d978a4877f') in 0.060348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Models/burgerpiz/textures/Tiles.png
+  artifactKey: Guid(af29600a9253e463cb94997018853070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Tiles.png using Guid(af29600a9253e463cb94997018853070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d221325afa80ef50eb320b71e925726') in 0.006681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/Models/burgerpiz/textures/Shelf_FR.png
+  artifactKey: Guid(026739d58fae44f5eb01a2c539668a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Shelf_FR.png using Guid(026739d58fae44f5eb01a2c539668a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8aecc8e61a5b386729ca545a24fb4f') in 0.008921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Models/burgerpiz/textures/TilesPlain.jpeg
+  artifactKey: Guid(633b037ad86b04add98e3e370d2ecb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/TilesPlain.jpeg using Guid(633b037ad86b04add98e3e370d2ecb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24df8d13fc010dc90eaa3e0dec408c4f') in 0.010592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Models/burgerpiz/textures/Terminal.png
+  artifactKey: Guid(8b9c07b6637044b1a8e0137aa7e9798c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Terminal.png using Guid(8b9c07b6637044b1a8e0137aa7e9798c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fced960a0a06a25e26961538d382e3') in 0.008800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/Models/burgerpiz/textures/Tree_01.png
+  artifactKey: Guid(e079fd64014c74804933a36b342ae843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Tree_01.png using Guid(e079fd64014c74804933a36b342ae843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704300980d0f37401c06e1254f48d3bc') in 0.022019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Models/burgerpiz/textures/Tree.png
+  artifactKey: Guid(2d0719ce904fb4117ae2258c1caf2af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Tree.png using Guid(2d0719ce904fb4117ae2258c1caf2af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b87b5753731548edf0b17d1155b0ac5') in 0.009706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Models/burgerpiz/textures/Wall_W.png
+  artifactKey: Guid(5016535f135db4921a4a76a680a9a8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Wall_W.png using Guid(5016535f135db4921a4a76a680a9a8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8d39f6b98990d66321e2c00c470aef') in 0.005325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Models/burgerpiz/textures/Wire.png
+  artifactKey: Guid(6bd6c3fd804004b45a5b8c5c2849d928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Wire.png using Guid(6bd6c3fd804004b45a5b8c5c2849d928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7605e4a4d9e3cd2e17ff201b5cab97') in 0.018454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Models/burgerpiz/textures/Tree_03.png
+  artifactKey: Guid(f9ccc3b0e16ba4e03995de9eb4ab970c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Tree_03.png using Guid(f9ccc3b0e16ba4e03995de9eb4ab970c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2e42c674b2d0561c709cf8a67ffd47') in 0.005186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Models/burgerpiz/textures/Wall.jpeg
+  artifactKey: Guid(a50978fdf0a4047af839066ad88e4fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Wall.jpeg using Guid(a50978fdf0a4047af839066ad88e4fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449e232242ce022c8ff4f930af926c6d') in 0.013983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Models/burgerpiz/textures/Sign.png
+  artifactKey: Guid(7165035cf0ac6426297a367ff1ceedb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/Sign.png using Guid(7165035cf0ac6426297a367ff1ceedb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782afed7ce4856b344bda76d291179f8') in 0.005820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Models/burgerpiz/textures/WoodFloor.png
+  artifactKey: Guid(0e30462ccf0d843ebbaeeeb66607d278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/textures/WoodFloor.png using Guid(0e30462ccf0d843ebbaeeeb66607d278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa108edb0ff864d6d3650d993768a29') in 0.006985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x325387000 may have been prematurely finalized
+- Loaded All Assemblies, in  1.475 seconds
+Refreshing native plugins compatible for Editor in 2.71 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.850 seconds
+Domain Reload Profiling: 3326ms
+	BeginReloadAssembly (727ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (264ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (574ms)
+		LoadAssemblies (807ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1851ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (695ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (502ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 2.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3085 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3564.
+Memory consumption went from 132.9 MB to 132.9 MB.
+Total: 20.244375 ms (FindLiveObjects: 0.565333 ms CreateObjectMapping: 0.146084 ms MarkObjects: 16.428958 ms  DeleteObjects: 3.103334 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1298.338624 seconds.
+  path: Assets/Models/burgerpiz/Materials/Armchair.mat
+  artifactKey: Guid(a4a0e72b5c9be4b7d90deb6822c0b2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/burgerpiz/Materials/Armchair.mat using Guid(a4a0e72b5c9be4b7d90deb6822c0b2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71be9182e6b1691b6ef2af53072849e') in 1.404708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 399.379966 seconds.
+  path: Assets/Male Model/tex/rp_eric_rigged_001_gloss.jpg
+  artifactKey: Guid(94c632204bb7e48018cecf89de2c49ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Male Model/tex/rp_eric_rigged_001_gloss.jpg using Guid(94c632204bb7e48018cecf89de2c49ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc648e62a9a0ec6cc80d51b2fd23f9e6') in 0.545884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 130.303298 seconds.
+  path: Assets/Models/Male Model/rp_eric_rigged_001_ue4.fbx
+  artifactKey: Guid(bf6ffc7e77d224088aef81ed682eee00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Male Model/rp_eric_rigged_001_ue4.fbx using Guid(bf6ffc7e77d224088aef81ed682eee00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c3a54fa2fdca0d8cfa5b9dc745fcbf') in 1.520073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 199
+========================================================================
+Received Import Request.
+  Time since last request: 460.420374 seconds.
+  path: Assets/Models/Female Model/rp_claudia_rigged_002_u3d.fbx
+  artifactKey: Guid(faf5abf9f9515478cb46fc2d515b1fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Female Model/rp_claudia_rigged_002_u3d.fbx using Guid(faf5abf9f9515478cb46fc2d515b1fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b3536045ffe12e99716ffab7d6ac86') in 0.151348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 184
+========================================================================
+Received Import Request.
+  Time since last request: 427.652686 seconds.
+  path: Assets/Models/Town/scence, a small town.obj
+  artifactKey: Guid(28990b4bbab7c46cfa12856b25a25372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Town/scence, a small town.obj using Guid(28990b4bbab7c46cfa12856b25a25372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6368dbb29b7e52608e9301813221a67') in 11.235819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2470
