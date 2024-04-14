@@ -1,0 +1,47 @@
+#door {
+    width: 300px;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    /* Additional styling properties can be added here */
+    position: absolute; /* Position the image relative to the screen */
+    right: 0; /* Align the image to the right of the screen */
+    top: 80%; /* Center the image vertically */
+    transform: translateY(-50%); /* Adjust vertical alignment */
+}
+body {
+    background-image: url('Galaxy.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.content {
+    text-align: center;
+    padding: 50px;
+    color: rgb(243, 151, 231);
+    top: 0;
+}
+.button {
+    display: inline-block;
+    padding: 0px 0px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute; /* Position the image relative to the screen */
+    right: 0; /* Align the image to the right of the screen */
+    top: 80%; /* Center the image vertically */
+    transform: translateY(-50%); /* Adjust vertical alignment */
+    right: 11%;
+    
+
+  }
+
+  /* CSS for hover effect */
+  .button:hover {
+    background-color: #0056b3;
+  }
